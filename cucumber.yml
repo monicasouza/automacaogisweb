@@ -1,0 +1,8 @@
+default: --format progress -p json -p html -p ftd -p chrome
+
+html: --format html --out=reports/report.html
+json: --format json --out=reports/report.json
+ftd: ENV_TYPE=ftd
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox  
+ie: BROWSER=ie
