@@ -1,0 +1,6 @@
+gisweb:
+  dados:
+    nome_escola: FTD MVP
+    nome2: Automacao Core
+  mensagem:
+    erro_login: Seu usuário ou senha estão incorretos.
